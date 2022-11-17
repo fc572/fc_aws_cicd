@@ -1,6 +1,6 @@
 resource "aws_kms_key" "codebuild-key" {
   description             = "Key to be used by CodeBuild to encrypt data"
-  deletion_window_in_days = 30
+  deletion_window_in_days = 7
   enable_key_rotation     = true
 }
 
