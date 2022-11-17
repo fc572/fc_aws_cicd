@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+.terraform
+*.tfstate*
+plan.out
+.terraform.lock.hcl
+.classpath
+.project
+.settings/
+target/*
+.docs
